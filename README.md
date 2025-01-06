@@ -1,7 +1,6 @@
-# PBI-experiments
+# PBI-kitchen
 
-Experimenting with Power BI using the HTLN Landbird SQL Server database and recipes from Deckler and Powell (2024).
-The main objective is to follow the cookbook recipes with the Microsoft AdventureWorks database then try to apply similar procedures on HTLN_Landbirds.
+Testing recipes from Deckler and Powell (2024) and trying them out with the bird monitoring database, HTLN_Landbirds
 
 Reference: Deckler, G. and B. Powell. 2024. Microsoft Power BI Cookbook, 3rd edition. Packt Publishing Ltd. Birmingham, UK.
 
