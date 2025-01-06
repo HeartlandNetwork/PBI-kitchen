@@ -1,0 +1,5 @@
+Use the src directory for all dev work. 
+
+Move files to other directories when in final executable form
+
+
