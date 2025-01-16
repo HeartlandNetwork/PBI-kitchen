@@ -9,8 +9,7 @@ Reference: Deckler, G. and B. Powell. 2024. Microsoft Power BI Cookbook, 3rd edi
 
 20250103
 
-Loaded HTLN_Landbirds and filtered the bird observations view for sparrows. Created a pie chart for sparrow species abundance
-
+Loaded HTLN_Landbirds SQL Server database, created initial model for abundance of all sparrow species 
 
 20250102
 
