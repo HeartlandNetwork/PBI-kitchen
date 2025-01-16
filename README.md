@@ -7,6 +7,10 @@ Reference: Deckler, G. and B. Powell. 2024. Microsoft Power BI Cookbook, 3rd edi
 
 # Notes
 
+20250116
+
+Loaded HTLN_Landbirds using DirectQuery
+
 20250103
 
 Loaded HTLN_Landbirds SQL Server database, created initial model for abundance of all sparrow species 
