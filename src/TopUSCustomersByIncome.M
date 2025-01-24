@@ -1,18 +1,13 @@
-
-
 let
     Source = #"United States Customers",
-    SortedByIncome = 
+    SortedByIncome =
         Table.Sort(
             Source,
-            {{"YearlyIncome", Order.Descending}}
+            {{"YearlyIncome",Order.Descending}}
         ),
-    TopUSIncomeCustomers = Table.FirstN(SortedByIncome, 100
-    )
+    TopUSIncomeCustomers = Table.FirstN(SortedByIncome, 100)
+
 in
-    USCustomers
-  
-
-
+    TopUSIncomeCustomers
 
     
