@@ -7,10 +7,17 @@ Reference: Deckler, G. and B. Powell. 2024. Microsoft Power BI Cookbook, 3rd edi
 
 # Notes
 
+20250117
+
+Ideas - things to try with Power BI transformation functions - normalizing a spreadsheet with unpivot - parse a multi-valued field into a single column and join it along with associated columns to a lookup  - install VSCode with Power Query M add-in.
+
+20250116
+
+Loaded HTLN_Landbirds using DirectQuery
+
 20250103
 
-Loaded HTLN_Landbirds and filtered the bird observations view for sparrows. Created a pie chart for sparrow species abundance
-
+Loaded HTLN_Landbirds SQL Server database, created initial model for abundance of all sparrow species 
 
 20250102
 
