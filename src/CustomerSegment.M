@@ -1,5 +1,4 @@
 
-
 CustomerSegment = 
     Table.AddColumn(
         CustomerAge, "Customer Age Segment", each
@@ -9,7 +8,5 @@ CustomerSegment =
         else if [CustomerAge] < 60 then "50 to 69"
         else "60 and older"
     )
-in
-    CustomerSegment
 
     

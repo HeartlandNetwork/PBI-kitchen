@@ -10,6 +10,6 @@ NameFormatTble =
                     & ", " & [LastName]
             else
                 [Title] & " " & [FirstName] & " "
-                    & Text.Range([MiddleName]), 0, 1) & ". " & [LastName]
+                    & Text.Range([MiddleName], 0, 1) & ". " & [LastName]
     )
     

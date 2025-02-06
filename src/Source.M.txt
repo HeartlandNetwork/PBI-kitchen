@@ -1,0 +1,5 @@
+let
+    Source = Sql.Database("INPHTLN000431\MSSQLSERVER01", "AdventureWorksDW2022")
+in
+    Source
+
