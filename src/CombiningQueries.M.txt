@@ -1,0 +1,9 @@
+
+let
+    Source = Table.Combine(
+        {#"Sales 2011", #"Sales 2012", #"Sales 2013"} 
+    )
+in 
+    Source
+
+    

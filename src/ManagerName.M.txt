@@ -1,0 +1,16 @@
+
+let
+    Source = AdventureWorksDW2022,
+    dbo_DimEmployee = Source{[Schema="dbo", Item="DimEmployee]"]}[Data]],
+    ManagerName =
+        Table.AddColumn(
+            dbo_DimEmployee,
+            "Manager Name", each [FirstName] & " " & [LastName]
+        ),
+    SelectCols =
+        Table.SelectColumns(
+            ManagerName,
+            {"EmployeeKey", "Manager Name", "Title"}
+        )
+in
+    SelectCols

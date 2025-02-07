@@ -1,0 +1,6 @@
+let
+    Source = Table.NestedJoin(
+        #"Employees Staging", {"ParentEmployeeKey"}, Managers, {"EmployeeKey"}, "Managers", JoinKind.LeftOuter
+        )
+in
+    Source
