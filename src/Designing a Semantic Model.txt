@@ -1,0 +1,56 @@
+
+G. DECKLER and B. POWELL - MICROSOFT POWER BI COOKBOOK, 3RD ED
+
+-----------------------------
+| Designing a Semantic Model |
+------------------------------
+
+Getting Ready
+-------------
+
+Decision points - Direct Query vs in-memory - limited prototype to generate initial visualizations
+Avoiding version control issues - have one main model - source of truth - One model - many reports 
+
+Be methodical - what are top pain points - what are unanswered business questions in current state 
+Do an assessment of feasibility and complexity - e.g., data quality a dn analytical needs
+Target realistic and sustainable deliverables
+
+Power BI semantic models - dimension modeling and star schema - short collaberative meetinds with 
+stakeholders 
+
+Four-step dimensional design process:
+
+(1) Choose the business processes: Number and nature of processes - include scale of sources, scope
+of project - process examples - planning, sales, time reporting, general ledger, others
+
+(2) Declare the granularity: For each process (fact), define the meaning of each row - clear, concise
+business definitions. Each fact - one grain. Consider scalability limitations of Power BI Desktop - balance
+needs between detail and history - e.g. more history and less granularity or visa verse. Examples - 
+(a) one row per sales order - granularity at sales order line vs purchase order header - granulariyt 
+
+one row per general ledger account balance per fiscal month
+
+(3) Identify the dimensions:
+
+(4) Identify the facts:
+
+
+
+How to design a semantic model
+------------------------------
+
+(1) Create a data warehouse bus matrix:
+
+(2) Create an implementation bus matrix:
+
+(3) Choose the sematic model storage mode - import, DirectQuery or composite
+
+
+How it works
+------------
+
+
+There's more...
+
+
+
